@@ -11,9 +11,22 @@
 <img class="logo_login" src="Oukas_Logo.png">
 </a>
 
+<div class="contact_form">
+    <form id="contact_form" method="post" action="Oukas_Contact.php">
+        <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+        <br>
+        <input name="Email" type="text" class="form-control" placeholder="Your Email" required>
+        <br>
+
+        <textarea name="message" class="form-control" placeholder="Message" row="4" required></textarea><br>
+
+        <input type="submit" class="form-control submit" value="SEND MESSAGE">
+
+
+<!---
 <form action="/action_page.php" style="border:1px solid #ccc">
   <div class="container">
-    <h1>Sign Up</h1>
+    <h1>Contact Form</h1>
     <p>Please fill in this form to receive news and learn more about our services.</p>
     <hr>
 
@@ -37,7 +50,7 @@
     </div>
   </div>
 </form>
-
+--->
 
 </body>
 </html>

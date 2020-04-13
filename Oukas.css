@@ -99,6 +99,42 @@ p {
   line-height: 2.8;
 }
 
+.repayment {
+  margin-top: 150px;
+  float: left;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #A7BE89;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #A7BE89;
+  cursor: pointer;
+}
+
 /* Partners Page */
 
 .partners_slogan { 
@@ -184,7 +220,44 @@ p.Percentage {
   padding-right: 50%;
 }
 
-/* Full-width input fields */
+.contact_form {
+  margin-left: 350px;
+}
+
+form {
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
+}
+
+.form-control {
+  width: 600px;
+  color: ;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+input {
+  height: 45px;
+}
+
+form .submit{
+  background: #A7BE89;
+  border-color: transparent;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+form .submit:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+
+
+/* Full-width input fields
 input[type=text], input[type=password] {
   width: 100%;
   padding: 15px;
@@ -205,7 +278,7 @@ hr {
   margin-bottom: 25px;
 }
 
-/* Set a style for all buttons */
+/* Set a style for all buttons 
 button {
   background-color: #A7BE89;
   color: white;
@@ -222,23 +295,26 @@ button:hover {
   opacity:1;
 }
 
-/* Extra styles for the cancel button */
+*/
+
+/* Extra styles for the cancel button 
 .cancelbtn {
   padding: 14px 20px;
   background-color: #f44336;
 }
 
-/* Add padding to container elements */
+/* Add padding to container elements
 .container {
   padding: 16px;
 }
 
-/* Change styles for cancel button and signup button on extra small screens */
+/* Change styles for cancel button and signup button on extra small screens
 @media screen and (max-width: 300px) {
   .cancelbtn, .signupbtn {
      width: 100%;
   }
 }
+
 
 /*
 .google {
@@ -252,6 +328,7 @@ button:hover {
   display: inline-block;
   text-decoration: none;
 */
+
 
 /* About Us page */
 

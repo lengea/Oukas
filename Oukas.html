@@ -114,6 +114,28 @@ Raksa takes a loan of $2500 to complete her 4 years study in accounting supporte
 
 </div>
 
+<div class="repayment">
+
+<h1>Let's check the repayment model!</h1>
+<p>Drag the slider to display your desired fund.</p>
+
+<div class="slidecontainer">
+  <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+  <p>Value: <span id="demo"></span></p>
+</div>
+
+</div>
+
+<script>
+var slider = document.getElementById("myRange");
+var output = document.getElementById("demo");
+output.innerHTML = slider.value;
+
+slider.oninput = function() {
+  output.innerHTML = this.value;
+}
+</script>
+
 <!---
 <div class='footer'>
 	<p>Footer</p>
